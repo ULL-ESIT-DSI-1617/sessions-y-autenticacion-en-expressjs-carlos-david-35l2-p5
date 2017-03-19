@@ -9,7 +9,7 @@ let router = express.Router();  //rutas
 
 //myserver_middleware.js
 
-//module.exports = router;
+module.exports = router;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -38,6 +38,10 @@ app.get('/login', function(req, res){
         res.render('login', {title: 'login'});
 });
 
+app.get('/index', function(req, res){
+        res.render('index', {title: 'index'});
+});
+
 app.use(cookieParser());
 app.use(session({
     secret: 'Pruebas_Carlos_David',
@@ -52,7 +56,7 @@ app.use(function(req, res, next) {
 });
 
 //escuchar
-var server = app.listen(8091, function () {
+var server = app.listen(8089, function () {
 
   var host = server.address().address
   var port = server.address().port
