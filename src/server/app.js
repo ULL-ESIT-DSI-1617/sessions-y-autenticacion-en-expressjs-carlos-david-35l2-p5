@@ -26,7 +26,7 @@ app.get('/', routes.index)
 app.get('/users', user.list);
 
 app.get('/login', function(req, res){
-        res.render('login', title: 'login');
+        res.render('login', {title: 'login'});
 )};
 
 //escuchar
