@@ -1,6 +1,6 @@
 # Práctica:Sessions y Autenticación en ExpressJS
 
-## Aceptar Tarea
+## Requisitos
 
 * Aceptar asignación de la tarea
 * Use el repo de GitHub dado por la asignación de esta tarea
@@ -48,3 +48,5 @@
 * [Repositorio en github](https://github.com/ULL-ESIT-DSI-1617/sessions-y-autenticacion-en-expressjs-carlos-david-35l2-p5)
 
 * [Despliegue en la nube de Github](https://i.imgsafe.org/2fb5b00e5e.jpg)
+
+* [Despliegue en Heroku](https://i.imgsafe.org/2fb5b00e5e.jpg)
