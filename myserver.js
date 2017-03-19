@@ -3,25 +3,17 @@ let express = require('express'),
     app = express(),
     session = require('express-session');
 let cookieParser = require('cookie-parser');
-//let path = require('path');
 let util = require("util");
 
 let bcrypt = require("bcrypt-nodejs");
-//let hash = bcrypt.hashSync("amyspassword");
-//console.log(`amypassword hashed = ${hash}`);
 let users = {
-  //amy : hash,
   juan : bcrypt.hashSync("juanpassword"),
   antonio : bcrypt.hashSync("antoniopassword")
 };
 
-//Archivos estaticos css, js, img, html
-//app.use(express.static('./gh-pages'));
-
 //ruteo
 app.get('/', function(req, res){
-//res.sendfile(__dirname + '/gh-pages/index.html');
-console.log('peticion a la /')
+  console.log('peticion a la /')
 });
 app.use(cookieParser());
 app.use(session({
