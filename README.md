@@ -33,9 +33,9 @@
 
 * [Descripción de la practica](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicasessions.html)
 
-* [IaaS Carlos (10.6.128.62:8082)](https://i.imgsafe.org/2fb5b00e5e.jpg)
+* [IaaS Carlos (10.6.128.62:8082)](http://10.6.128.62:8082/)
 
-* [IaaS David (10.6.129.193:8082)](https://i.imgsafe.org/2fb5b00e5e.jpg)
+* [IaaS David (10.6.129.193:8082)](http://10.6.129.193:8082/)
 
 
 
@@ -47,6 +47,6 @@
 
 * [Repositorio en github](https://github.com/ULL-ESIT-DSI-1617/sessions-y-autenticacion-en-expressjs-carlos-david-35l2-p5)
 
-* [Despliegue en la nube de Github](https://i.imgsafe.org/2fb5b00e5e.jpg)
+* [Despliegue en la nube de Github](https://ull-esit-dsi-1617.github.io/sessions-y-autenticacion-en-expressjs-carlos-david-35l2-p5/)
 
-* [Despliegue en Heroku](https://i.imgsafe.org/2fb5b00e5e.jpg)
+* [Despliegue en Heroku](https://mighty-sea-43497.herokuapp.com/)
